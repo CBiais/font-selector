@@ -1,14 +1,14 @@
 const printedFontList = [
-  {name: "Arial", provenance: "Native fonts"},
-  {name: "Comic Sans MS", provenance: "Native fonts"},
-  {name: "Courrier New", provenance: "Native fonts"},
-  {name: "Georgia", provenance: "Native fonts"},
-  {name: "Helvetica", provenance: "Native fonts"},
-  {name: "Lucida Sans Unicode", provenance: "Native fonts"},
-  {name: "Tahoma", provenance: "Native fonts"},
-  {name: "Times New Roman", provenance: "Native fonts"},
-  {name: "Trebuchet MS", provenance: "Native fonts"},
-  {name: "Verdana", provenance: "Native fonts"},
+  {label: "Arial", groupLabel: "Native fonts"},
+  {label: "Comic Sans MS", groupLabel: "Native fonts"},
+  {label: "Courrier New", groupLabel: "Native fonts"},
+  {label: "Georgia", groupLabel: "Native fonts"},
+  {label: "Helvetica", groupLabel: "Native fonts"},
+  {label: "Lucida Sans Unicode", groupLabel: "Native fonts"},
+  {label: "Tahoma", groupLabel: "Native fonts"},
+  {label: "Times New Roman", groupLabel: "Native fonts"},
+  {label: "Trebuchet MS", groupLabel: "Native fonts"},
+  {label: "Verdana", groupLabel: "Native fonts"},
 ];
 
 export default printedFontList;
