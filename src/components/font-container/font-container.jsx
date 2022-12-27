@@ -44,15 +44,12 @@ class FontContainer extends Component {
   render() {
     return (
       <>
-        <h1>Font Selector 2.0</h1>
+        <h1>Font Selector 3.0</h1>
 
-        <h2>
-          Choisissez parmi une liste de polices ou saisissez directement le nom
-          de la votre :
-        </h2>
+        <h2>Choose or type your font below</h2>
         <StyledSelector handleChangeParent={this.handleFontInputChange} />
 
-        <h2>Choisir une couleur de fond :</h2>
+        <h2>Choose a background color</h2>
 
         <BgColorBox updateColors={this.updateColors} />
         <p
